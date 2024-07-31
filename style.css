@@ -1,0 +1,581 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.container{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header{
+  background-color: #269f2a;
+  height: 62.5px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.logo img {
+ height:62px;
+ padding-left: 10px;
+ padding-right: 20px;
+}
+.menu{
+  width:100%;
+  text-align: right;
+  margin-right: 20px;
+}
+.menu nav a{
+  font-size: 25px;
+  font-family: serif;
+  font: arial;
+  font-style: italic;
+  font-weight: bolder;
+  text-shadow:
+  0.8px 0px #000000,
+  0.8px 0.5px #000000,
+  0.8px -0.5px #000000,
+  -3px 0px #000000,
+  -3px 0.5px #000000,
+  -3px -0.5px #000000,
+  -1px 0px #000000,
+  -1px 0.5px #000000,
+  -1px -0.5px #000000,
+  0px 0.5px #000000,
+  0px -0.5px #000000;
+  text-decoration: none;
+  padding-right: 5px;
+  padding-left: 5px;
+  color: #FFFFFF;
+  position: relative;
+  transition: 0.3s;
+}
+.menu nav a:hover{
+  color: #d4d4d4;
+  background-color: #1e7b21;
+  border-radius:5px;
+
+}
+.titulo{
+  max-width: ;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.titulo h1{
+  font-size: 150px;
+  color: white;
+  font-family: serif;
+  font: arial;
+  font-style: italic;
+  font-weight: bolder;
+  position: absolute;
+  margin-top: -80px;
+  text-shadow:
+  0.8px 0px #000000,
+  0.8px 0.5px #000000,
+  0.8px -0.5px #000000,
+  -3px 0px #000000,
+  -3px 0.5px #000000,
+  -3px -0.5px #000000,
+  -1px 0px #000000,
+  -1px 0.5px #000000,
+  -1px -0.5px #000000,
+  0px 0.5px #000000,
+  0px -0.5px #000000;
+
+}
+.titulo img{
+  width: 100%;
+}
+.texto{
+  margin-top: -25px;
+  padding: 25px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.titulo h2{
+  font-size: 25px;
+  color: white;
+  font-family: serif;
+  font: arial;
+  font-style: italic;
+  font-weight: bolder;
+  position: absolute;
+  margin-top: 25px;
+  text-shadow:
+  0.8px 0px #000000,
+  0.8px 0.5px #000000,
+  0.8px -0.5px #000000,
+  -3px 0px #000000,
+  -3px 0.5px #000000,
+  -3px -0.5px #000000,
+  -1px 0px #000000,
+  -1px 0.5px #000000,
+  -1px -0.5px #000000,
+  0px 0.5px #000000,
+  0px -0.5px #000000;
+  top: 350px;
+}
+.texto p{
+  font-size: 35px;
+  color: black;
+  font-family: serif;
+  font: arial;
+  font-style: ;
+}
+.tituloA{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -60px;
+  background-color: ;
+
+}
+.tituloA t{
+  margin-top: -10px;
+  font-size: 60px;
+  color: black;
+  font-family: serif;
+  font: arial;
+  font-style: italic;
+  font-weight: bold;
+  background-image: url(colado.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  border-radius: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.tituloB{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: ;
+
+}
+.tituloB t{
+  margin-top: 50px;
+  font-size: 60px;
+  color: black;
+  font-family: serif;
+  font: arial;
+  font-style: italic;
+  font-weight: bold;
+  background-image: url(colado.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  border-radius: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.texto{
+  max-width: 1250px;
+  background-color: #D3D3D3;
+  border-radius: 5px;
+}
+.texto1{
+  display: flex;
+  background-color: #D3D3D3;
+  border-radius: 5px;
+}
+.texto1 p{
+  font-size: 35px;
+  color: black;
+  font-family: serif;
+  font: arial;
+  font-style: ;
+}
+.texto1{
+  max-width: 1250px;
+  display: table;
+  margin-top: -25px;
+  padding: 25px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.texto1 img{
+  width: 50%;
+}
+.texto1 h1{
+  margin-top: -100px;
+  margin-left: 50px;
+
+}
+//////////////////////////////////*postits*/
+.note1 img{
+  width: 50%;
+}
+.note1 h1{
+  margin-left: 90px;
+  margin-top: -470px;
+  font-size: 37px;
+}
+.note1 h2{
+  margin-left: 50px;
+  margin-right: 675px;
+  font-size: 30px;
+  font-weight: normal;
+  margin-top: 10px;
+}
+.note2{
+  margin-top: -375px;
+  margin-left: 650px;
+}
+.note2 img{
+  width: 102%;
+}
+.note2 h1{
+  margin-left: 65px;
+  margin-top: -470px;
+  margin-right: 50px;
+  font-size: 37px;
+}
+.note2 h2{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 30px;
+  font-weight: normal;
+  margin-top: 10px;
+}
+.note3 img{
+  width: 50%;
+}
+.note3{
+  margin-top: 200px;
+}
+.note3 h1{
+  margin-left: 90px;
+  margin-top: -470px;
+  font-size: 37px;
+}
+.note3 h2{
+  margin-left: 50px;
+  margin-right: 675px;
+  font-size: 30px;
+  font-weight: normal;
+  margin-top: 10px;
+}
+.note4{
+  margin-top: -370px;
+  margin-left: 650px;
+}
+.note4 img{
+  width: 102%;
+}
+.note4 h1{
+  margin-left: 65px;
+  margin-top: -470px;
+  margin-right: 50px;
+  font-size: 37px;
+}
+.note4 h2{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 30px;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.tituloC{
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tituloC t{
+  margin-top: 00px;
+  font-size: 60px;
+  color: black;
+  font-family: serif;
+  font: arial;
+  font-style: italic;
+  font-weight: bold;
+  background-image: url(colado.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  border-radius: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.textoC{
+  background-color: #D3D3D3;
+  border-radius: 5px;
+}
+.textoC p{
+  margin-left: 30px;
+  font-size: 35px;
+  color: black;
+  font-family: serif;
+  font: arial;
+  font-style: ;
+}
+.textoC{
+  max-width: 1250px;
+  display: brick;
+  margin-top: -25px;
+  padding: 25px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.textoC img{
+  width: 50%;
+}
+.textoC h1{
+  margin-top: -100px;
+  margin-left: 50px;
+}
+.TituloCc{
+    margin-right: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.TituloCc t{
+    margin-top: 100px;
+    font-size: 50px;
+    color: black;
+    font-family: serif;
+    font: arial;
+    font-style: italic;
+    font-weight: bold;
+    background-image: url(colado.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    border-radius: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+.TituloCe{
+    margin-right: -600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.TituloCe t{
+    margin-top: 00px;
+    font-size: 50px;
+    color: black;
+    font-family: serif;
+    font: arial;
+    font-style: italic;
+    font-weight: bold;
+    background-image: url(colado.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    border-radius: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.c {
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.e   {
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.R {
+    margin-left: 600px;
+}
+.L {
+    margin-right: 450px;
+}
+.cumbuca{
+  margin-bottom: -780px;
+  margin-left: 800px;
+}
+.cumbuca img{
+  width: 450px;
+}
+.sacola{
+  margin-bottom: -800px;
+  margin-left: 00px;
+}
+.sacola img{
+  width: 560px;
+}
+.Curiosidade{
+  padding: 0px;
+  border: 0px;
+  margin-bottom: 00px;
+  margin-left: 1065;
+}
+.Curiosidade img{
+  width: 160px;
+}
+.TituloCu{
+    margin-top: -425;
+    padding-bottom: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.TituloCu t{
+    margin-top: 00px;
+    font-size: 50px;
+    color: black;
+    font-family: serif;
+    font: arial;
+    font-style: italic;
+    font-weight: bold;
+    background-image: url(colado.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    border-radius: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.u   {
+  margin-top: -350px;
+  margin-right: 125px;
+  font-size: 45px;
+}
+.tituloD{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tituloD t{
+  margin-top: 00px;
+  font-size: 60px;
+  color: black;
+  font-family: serif;
+  font: arial;
+  font-style: italic;
+  font-weight: bold;
+  background-image: url(colado.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  border-radius: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.TextoD t{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 00px;
+  font-size: 40px;
+  color: black;
+  font-family: serif;
+  font: arial;
+  font-style: italic;
+  font-weight: bold;
+  background-image: url(colado.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 400PX;
+  border-radius: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.textoD{
+  background-color: #D3D3D3;
+  border-radius: 5px;
+}
+.textoD p{
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 35px;
+  color: black;
+  font-family: serif;
+  font: arial;
+  font-style: ;
+}
+.textoD{
+  max-width: 1250px;
+  display: brick;
+  margin-top: -25px;
+  padding: 25px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.textoD img{
+  width: 50%;
+}
+.textoD h1{
+  margin-top: -100px;
+  margin-left: 50px;
+}
+.e a{
+  font-size: 35px;
+}
+.TextoE t{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 00px;
+  font-size: 40px;
+  color: black;
+  font-family: serif;
+  font: arial;
+  font-style: italic;
+  font-weight: bold;
+  background-image: url(colado.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 400px;
+  border-radius: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.textoE{
+  background-color: #D3D3D3;
+  border-radius: 5px;
+
+}
+.textoE p{
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 35px;
+  color: black;
+  font-family: serif;
+  font: arial;
+  font-style: ;
+}
+.textoE{
+  max-width: 1250px;
+  display: brick;
+  margin-top: -25px;
+  padding: 25px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.textoE img{
+  width: 50%;
+}
+.textoE h1{
+  margin-top: -100px;
+  margin-left: 50px;
+}
