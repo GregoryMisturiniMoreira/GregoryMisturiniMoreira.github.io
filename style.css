@@ -1,8 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  max-width: 100%;
+
 }
 .container{
   margin: 0 auto;
@@ -13,8 +12,11 @@
 header{
   background-color: #269f2a;
   height: 62.5px;
+  width: 100%;
   max-width: 100%;
   max-height: 100%;
+  position: fixed;
+  z-index: 999;
 }
 .logo img {
  height:62px;
@@ -209,81 +211,78 @@ header{
   margin-left: 50px;
 
 }
-//////////////////////////////////*postits*/
-.note1 img{
-  width: 50%;
-}
-.note1 h1{
-  margin-left: 90px;
-  margin-top: -470px;
-  font-size: 37px;
-}
-.note1 h2{
-  margin-left: 50px;
-  margin-right: 675px;
-  font-size: 30px;
-  font-weight: normal;
-  margin-top: 10px;
-}
-.note2{
-  margin-top: -375px;
-  margin-left: 650px;
-}
-.note2 img{
-  width: 102%;
-}
-.note2 h1{
-  margin-left: 65px;
-  margin-top: -470px;
-  margin-right: 50px;
-  font-size: 37px;
-}
-.note2 h2{
-  margin-left: 50px;
-  margin-right: 50px;
-  font-size: 30px;
-  font-weight: normal;
-  margin-top: 10px;
-}
-.note3 img{
-  width: 50%;
-}
-.note3{
-  margin-top: 200px;
-}
-.note3 h1{
-  margin-left: 90px;
-  margin-top: -470px;
-  font-size: 37px;
-}
-.note3 h2{
-  margin-left: 50px;
-  margin-right: 675px;
-  font-size: 30px;
-  font-weight: normal;
-  margin-top: 10px;
-}
-.note4{
-  margin-top: -370px;
-  margin-left: 650px;
-}
-.note4 img{
-  width: 102%;
-}
-.note4 h1{
-  margin-left: 65px;
-  margin-top: -470px;
-  margin-right: 50px;
-  font-size: 37px;
-}
-.note4 h2{
-  margin-left: 50px;
-  margin-right: 50px;
-  font-size: 30px;
-  font-weight: normal;
-  margin-top: 10px;
-}
 
+ul{
+  width: 100%;
+  display:inline-block;
+}
+li{
+  width: ;
+  display:inline-block;
+}
+.nota h2, p{
+  font-size: 20px;
+  font-weight: normal;
+}
+.nota ul, li{
+  list-style: none;
+}
+.nota ul{
+  overflow: hidden;
+  padding: 48px;
+}
+.nota ul li a{
+  text-decoration: none;
+  color: #000;
+  background: #FFC;
+  display: block;
+  height: 330px;
+  width: 330px;
+  padding: 16px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7  );
+  transition:transform .15s linear;
+}
+.note ul li{
+  margin: 16px;
+  float: left;
+}
+.nota ul li h2{
+  font-size: 140%;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.nota ul li p{
+  font-family: cursive;
+  font-size: 180%;
+}
+.nota ul li a{
+  transform: rotate(-6deg);
+}
+.nota ul li:nth-child(even) a{
+  transform: rotate(4deg);
+  position: relative;
+  top: 5px;
+  background: #cfc;
+}
+.nota ul li:nth-child(3n) a{
+  transform: rotate(-3deg);
+  position: relative;
+  top: -5px;
+  background: #ccf;
+}
+.nota ul li:nth-child(5n) a{
+  transform: rotate(5deg);
+  position: relative;
+  top: -10px;
+}
+.nota ul li a:hover, ul li a:focus{
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+  transform: scale(1.25);
+  position: relative;
+  z-index:5;
+}
+////
 .tituloC{
   margin-top: 200px;
   display: flex;
@@ -322,27 +321,24 @@ header{
 }
 .textoC{
   max-width: 1250px;
-  display: brick;
+  display: ;
   margin-top: -25px;
   padding: 25px;
   margin-left: 300px;
   margin-right: 300px;
-}
-.textoC img{
-  width: 50%;
 }
 .textoC h1{
   margin-top: -100px;
   margin-left: 50px;
 }
 .TituloCc{
-    margin-right: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-right: ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   }
 .TituloCc t{
-    margin-top: 100px;
+    margin-top: ;
     font-size: 50px;
     color: black;
     font-family: serif;
@@ -359,6 +355,70 @@ header{
     padding-top: 25px;
     padding-bottom: 25px;
   }
+.imagembeneficios {
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    margin-top: -400px;
+}
+.sacola {
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    margin-top: -50px;
+}
+.textoCc p{
+  display: inline-block;
+  vertical-align: top;
+  margin-right: %;
+}
+.textoCc p{
+
+    width: 65%;
+
+}
+.textoCc h3{
+  display: inline-block;
+  vertical-align: top;
+  width: 55%;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+//////////////
+.textoCe{
+  display: flex;
+}
+.textoCe p{
+  display: inline-block;
+  vertical-align: top;
+  margin-right: %;
+}
+.textoCe p{
+
+    width: 65%;
+
+}
+.textoCe h3{
+  display: inline-block;
+  vertical-align: top;
+  width: 55%;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+.D p{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.D h3{
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
 .TituloCe{
     margin-right: -600px;
     display: flex;
@@ -393,7 +453,7 @@ header{
     margin-bottom: 30px;
 }
 .R {
-    margin-left: 600px;
+    width: 50%;
 }
 .L {
     margin-right: 450px;
@@ -404,13 +464,6 @@ header{
 }
 .cumbuca img{
   width: 450px;
-}
-.sacola{
-  margin-bottom: -800px;
-  margin-left: 00px;
-}
-.sacola img{
-  width: 560px;
 }
 .Curiosidade{
   padding: 0px;
